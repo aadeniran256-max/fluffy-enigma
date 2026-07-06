@@ -33,7 +33,7 @@ from telegram.ext import (
 
 # ============================== CONFIG ==============================
 
-BOT_TOKEN = "PASTE_YOUR_TOKEN_HERE"          # from @BotFather
+BOT_TOKEN = "8593146497:AAHfCHijkw4pSny6kjqujb7AdpgEWYAzgo0"          # from @BotFather
 WEATHER_API_KEY = ""                          # optional, from openweathermap.org
 
 # ============================== STORAGE ==============================
@@ -642,7 +642,7 @@ def build_app():
 
 
 if __name__ == "__main__":
-    if BOT_TOKEN == "PASTE_YOUR_TOKEN_HERE":
+    if BOT_TOKEN == "":
         raise RuntimeError("Edit this file and put your real bot token in BOT_TOKEN near the top.")
     application = build_app()
     print("Bot is running...")
